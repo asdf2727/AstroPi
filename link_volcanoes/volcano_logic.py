@@ -26,6 +26,14 @@ class CloseVolcano:
                               'name': words[1], 
                               'lat': float(words[2]), 
                               'lon': float(words[3])})
+            
+    def GetCoef(self, cam_lat: float, cam_lon: float):
+        ans = 0
+        for volc in self.list:
+            new_dist = GetDist(cam_lat, cam_lon, volc['lat'], volc['lon'])
+            real_dist = 2 * np.sin(new_dist / 2)
+            ans += 1 / real_dist
+        return ans
     
     def GetClose(self, cam_lat: float, cam_lon: float):
         ans = ('', 1000000)
