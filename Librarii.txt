@@ -1,0 +1,30 @@
+Altele:
+tensorflow + pycoral - AI
+logzero              - logs
+
+Astronomie:
+skyfield         - pozitia obiectelor astronomice
+GDAL             - geospatial data
+GeoPandas        - geospatial data
+EarthPy          - geospatial data
+reverse-geocoder - nearest city
+
+Mate:
+pandas       - data analysis
+matplotlib   - plots
+NumPy        - mate
+SciPy        - mate++
+scikit-learn - data analysis
+
+Imagini:
+picamera     - camera
+colorzero    - culori (easy)
+pillow       - image processing
+opencv       - computer vision
+exif         - image metadata
+scikit-image - image processing
+
+Interfata:
+sense_hat    - interfata
+pisense      - interfata
+GPIO Zero    - interfata ???

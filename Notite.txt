@@ -1,0 +1,33 @@
+Date luate (max 3 gig):
+mereu:
+	camp magnetic (x, y, z)
+	vegetatie
+	coordonate
+uneori (random + vulcani + anomalii):
+	poza
+
+numar maxim de poze:
+	(10%) aleatoriu
+	(45%) aproape de vulcani
+	(45%) anomalii magnetice
+
+Cod:
+	citirea ----------------------------- Ivan
+		poze
+		camp magnetic
+		NDVI
+		coordonate
+		timp
+	salvarea ---------------------------- David
+		datele mereu (tot fara poze)
+		poze (logica de salvare)
+	baza de date ------------------------ Peti
+		coordonate + nume + tip + etc
+	detector de anomalii ---------------- Cezar
+		in: intensitate, timp
+		out: anomalitate
+
+Cerinte:
+1. camp magnetic
+2. anomalii camp magnetic
+3. vegetatie la vulcani
